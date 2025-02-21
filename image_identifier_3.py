@@ -9,15 +9,15 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
 # 🔑 Replace with your credentials
-TOKEN = "7740960213:AAHBdZeBV8ehuWx8fn0djt4JulZXa3OqBVU"
-GOOGLE_API_KEY = "AIzaSyAT4gTEN6-V7YRjVGwMfj-xFuGHyVIYlWA"
-GENAI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"
+TOKEN = ""
+GOOGLE_API_KEY = ""
+GENAI_API_URL = ""
 
 # MySQL Database Configuration
-DB_HOST = "blg3gddyoqm11t50miod-mysql.services.clever-cloud.com"
-DB_USER = "uwrexml3vanwh8gr"
-DB_PASSWORD = "hgzWYeOmQYPHfWzFoOU1"
-DB_NAME = "blg3gddyoqm11t50miod"
+DB_HOST = ""
+DB_USER = ""
+DB_PASSWORD = ""
+DB_NAME = ""
 
 # Logging
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
